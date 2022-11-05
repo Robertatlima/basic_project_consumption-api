@@ -1,0 +1,55 @@
+@import url("../../colors/GlobalColors.css");
+
+.my-movies {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-movies h1 {
+  margin-bottom: 14px;
+  color: var(--brown-color);
+}
+
+.my-movies span {
+  font-size: 18px;
+}
+
+.my-movies ul {
+  width: 720px;
+}
+
+.my-movies ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.my-movies div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-movies div a {
+  text-decoration: none;
+  color: var(--purple-color);
+  margin-right: 14px;
+}
+
+.my-movies-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.my-movies-empty span {
+  font-size: 30px;
+}

@@ -1,0 +1,74 @@
+@import url("../../colors/GlobalColors.css");
+
+.loading-details {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  font-size: 28px;
+  flex-direction: row;
+  color: var(--brown-color);
+  justify-content: center;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: animate;
+}
+.container-details {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+
+.container-details img {
+  border-radius: 8px;
+  width: 800px;
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.container-details h1 {
+  margin: 14px 0;
+}
+
+.container-details h3 {
+  margin: 14px;
+}
+
+.container-details span {
+  margin: 8px 0;
+}
+.container-details a {
+  text-align: end;
+}
+
+.field-buttons button {
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.field-buttons button:hover {
+  background-color: var(--purple-color);
+  color: var(--white-color);
+}
+
+.field-buttons a {
+  text-decoration: none;
+  color: var(--black-color);
+  transition: all 0.5s;
+}
+
+.field-buttons a:hover {
+  text-decoration: none;
+  color: var(--white-color);
+}
